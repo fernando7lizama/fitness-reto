@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Evitar que el nav barra tape el contenido */
+body, #root {
+  padding-bottom: 70px; /* espacio para NavBar */
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb; /* color fondo suave */
+}
